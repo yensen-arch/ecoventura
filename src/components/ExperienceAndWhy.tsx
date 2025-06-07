@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Sustainable Luxury",
-  description: "Travel aboard eco-friendly yachts equipped with solar panels and energy-efficient systems, ensuring minimal environmental impact while providing modern comforts.",
+  title: "Exclusive Galápagos Cruises",
+  description: "Family-owned and eco-certified, Ecoventura offers sustainable small-ship cruises through the Galápagos Islands.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Culinary Delights",
-  description: "Savor gourmet meals prepared with fresh, local ingredients, offering a fusion of Ecuadorian and international flavors to delight every palate.",
+  title: "Relais & Châteaux Cuisine",
+  description: "Fine dining onboard featuring local ingredients and recipes crafted by world-class chefs.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Expert-Led Excursions",
-  description: "Engage in guided activities such as snorkeling, kayaking, and nature walks, led by knowledgeable naturalists who enrich your understanding of the islands' biodiversity.",
+  title: "Wildlife-Focused Itineraries",
+  description: "Naturalist guides and small groups maximize rare wildlife encounters on land and underwater.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Curated Itineraries",
-  description: "Explore the world's most captivating destinations with thoughtfully designed itineraries that include exclusive shore excursions and immersive cultural experiences.",
+  title: "Eco-Luxury Vessels",
+  description: "Modern, sustainably built yachts limit environmental impact without sacrificing comfort.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Ecoventura Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
